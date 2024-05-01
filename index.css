@@ -1,0 +1,42 @@
+/* * {
+    color: blueviolet;
+} */
+
+p {
+    color:green
+}
+
+.form-paragraph{
+    color: red
+}
+
+#special-paragraph{
+    color: blue;
+}
+
+body{
+    background-image: url('https://i.pinimg.com/564x/ab/58/cc/ab58cc75dcb2e42555cf7e614216350a.jpg');
+    background-size: cover;
+}
+
+div {
+    width: 50vw;
+    margin-left: 25vw;
+    text-align: center;
+}
+
+table{
+    background-color: aquamarine;
+    width: 10vw;
+    margin-left:20.75vw;
+}
+
+ul {
+    background-color: white;
+    width: 50vw;
+}
+
+ul > li {
+    background-color: palegreen;
+    width: 50%;
+}

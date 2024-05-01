@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Baby's First HTML</title>
+</head>
+<body>
+    <div id="top-div">
+        <h1>I like Pokemon</h1>
+        <h3>Some are good, some are great</h3>
+
+        <p>Everyone knows that Pokemon are those cute little creatures that make you wanna just catch 'em all!</p>
+        <p>Some of my favorites include</p>
+        <ul>
+            <!-- A bulleted list. -->
+            <li>Umbreon</li>
+            <li>Tyrannitar</li>
+            <li>Metagross</li>
+            
+        </ul>
+        
+        <img src="https://img.pokemondb.net/sprites/home/normal/2x/umbreon.jpg" alt="umbreon">
+        
+        <p>The best Pokemon generations are</p>
+        <ol>
+            <!-- A numbered list. -->
+            <li>Johto</li>
+            <li class="asdf">Kanto</li>
+            <li>Hoenn</li>
+            <li>The other ones...</li>
+        </ol>
+    </div>
+        
+    <div id="table-div">
+        <p>See? I can prove it.</p>
+        <table style='border: 1px solid black'>
+            <thead>
+            <tr>
+                <th>Generation</th>
+                <th>Popularity</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Johto</td>
+                <td>97%</td>
+            </tr>
+            <tr>
+                <td>Kanto</td>
+                <td>85%</td>
+            </tr>
+            <tr>
+                <td>Hoenn</td>
+                <td>97%</td>
+            </tr>
+            <tr>
+                <td>Who Cares</td>
+                <td>20%</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div id="form-div">
+      <form>
+        <p class="form-paragraph">Tell me about your favorite Pokemon</p>
+        <label for="favorite">My favorite Pokemon:</label>
+        <input type="text" id="favorite"/>
+        <br/>
+        
+        <label for="secret-favorite">My secret favorite Pokemon:</label>
+        <input type="password" id="secret-favorite"/>
+        <br/>
+        
+        Which Generation do you think is best? 
+        <br/>
+        <label >Generation 1</label>
+        <input type="radio" name="gen-form" value="gen1">
+        <br/>
+        
+        <label >Generation 2</label>
+        <input type="radio" name="gen-form" value="gen2">
+        <br/>
+        
+        <label >Generation 3</label>
+        <input type="radio" name="gen-form" value="gen3" disabled>
+        <br/>
+
+        <p class="form-paragraph">What kind of music do you enjoy while playing Pokemon?</p>
+
+        <input type="checkbox" name="music" value="rock">
+        <label>Rock</label>
+        <input type="checkbox" name="music" value="classical">
+        <label>Classical</label>
+        <input type="checkbox" name="music" value="country" disabled>
+        <label>Country</label>
+        <br/>
+
+        <p class="form-paragraph" id="special-paragraph">Who is your starter?</p>
+
+        <select name="starter">
+            <option value="default">Choose one...</option>
+            <option value="charmander">Charmander</option>
+            <option value="squirtle">Squirtle</option>
+            <option value="bulbasaur">Bulbasaur</option>
+        </select>
+
+        <br>
+
+        <p class="form-paragraph">Please write an essay about why you chose that starter.</p>
+        <textarea name="about-starter"></textarea>
+
+        <br/>
+        <br/>
+        <input type="submit">
+      </form>
+    </div>
+
+
+  </body>
+</html>
